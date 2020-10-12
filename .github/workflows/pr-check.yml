@@ -55,4 +55,5 @@ jobs:
               -var 'aws_secret_key=${{ secrets.AWS_SECRET_ACCESS_KEY }}' \
               -var 'aws_region=us-east-1' \
               -var 'subnet_id=${{ secrets.AWS_SUBNET_ID }}' \
+              -var 'ami_users=${{ secrets.AMI_USERS }}' \
               ami.json

@@ -1,5 +1,9 @@
 {
   "variables": {
+      "aws_region": "",
+      "aws_access_key": "",
+      "aws_secret_key": "",
+      "subnet_id": "",
       "source_ami": "ami-0817d428a6fb68645",
       "ssh_username": "ubuntu"
   },

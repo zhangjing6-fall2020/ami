@@ -15,6 +15,9 @@ Instructions for using packer:
   - packer build \
       -var 'aws_access_key=YOUR ACCESS KEY' \
       -var 'aws_secret_key=YOUR SECRET KEY' \
+      -var 'aws_region=us-east-1' \
+      -var 'subnet_id=${{ secrets.AWS_SUBNET_ID }}' \
+      -var 'ami_users=${{ secrets.AMI_USERS }}' \
       example.json
 - build output:
 ```

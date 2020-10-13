@@ -97,6 +97,8 @@ Build 'amazon-ebs' finished after 6 minutes 49 seconds.
 
 Demo commands:
 - Run Ec2 instance with network at 8080 inbound rule
+- Build go binary for ubuntu
+  - `env GOOS=linux GOARCH=amd64 go build`
 - `scp -i "~/.ssh/ubuntu" webapp ubuntu@ec2-3-238-43-225.compute-1.amazonaws.com:/home/ubuntu`
 - `sudo mysql`
 - `set password=password('MysqlPwd123');`

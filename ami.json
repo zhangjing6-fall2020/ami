@@ -48,9 +48,7 @@
         "export PATH=$GOROOT/bin:$PATH",
         "go get github.com/gin-gonic/gin",
         "go get github.com/google/uuid",
-        "go get github.com/jinzhu/gorm",
-        "mysql -u root -e \"SET PASSWORD FOR root@'localhost' = PASSWORD(‘MysqlPwd123’);\"",
-        "mysql -u root -e \"ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MysqlPwd123';\""
+        "go get github.com/jinzhu/gorm"
       ]
     }
   ]

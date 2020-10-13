@@ -40,7 +40,18 @@
       "inline": [
         "sleep 30",
         "sudo apt update",
-        "sudo apt install -y golang"
+        "sudo apt install mysql-server -y",
+        "wget https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz",
+        "tar xf go1.13.5.linux-amd64.tar.gz",
+        "sudo mv go /usr/local/go-1.13",
+        "export GOROOT=/usr/local/go-1.13",
+        "export PATH=$GOROOT/bin:$PATH",
+        "go get github.com/gin-gonic/gin",
+        "go get github.com/google/uuid",
+        "go get github.com/jinzhu/gorm",
+        "mysql.server start",
+        "mysql -u root -e \"SET PASSWORD FOR root@'localhost' = PASSWORD(‘MysqlPwd123’);\"",
+        "mysql -u root -e \"ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MysqlPwd123';\""
       ]
     }
   ]

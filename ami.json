@@ -40,7 +40,7 @@
       "inline": [
         "sleep 30",
         "sudo apt update",
-        "sudo apt install -y golang"
+        "sudo apt install mysql-server golang -y"
       ]
     }
   ]

@@ -96,8 +96,8 @@ Build 'amazon-ebs' finished after 6 minutes 49 seconds.
 ```
 
 Demo commands:
-- Run Ec2 instance
-- scp webapp
+- Run Ec2 instance with network at 8080 inbound rule
+- `scp -i "~/.ssh/ubuntu" webapp ubuntu@ec2-3-238-43-225.compute-1.amazonaws.com:/home/ubuntu`
 - `sudo mysql`
 - `set password=password('MysqlPwd123');`
 - `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MysqlPwd123';`

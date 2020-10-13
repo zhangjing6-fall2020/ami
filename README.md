@@ -94,3 +94,14 @@ amazon-ebs: output will be in this color.
 ==> amazon-ebs: Deleting temporary keypair...
 Build 'amazon-ebs' finished after 6 minutes 49 seconds.
 ```
+
+Demo commands:
+- Run Ec2 instance
+- scp webapp
+- `sudo mysql`
+- `set password=password('MysqlPwd123');`
+- `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MysqlPwd123';`
+- `create database `user_story`;`
+- `exit`
+- `./webapp`
+- send requests to the public IP addr

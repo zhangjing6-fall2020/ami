@@ -95,7 +95,8 @@ amazon-ebs: output will be in this color.
 Build 'amazon-ebs' finished after 6 minutes 49 seconds.
 ```
 
-Demo commands:
+Demo steps:
+- log in dev and prod aws accounts, any AMIs shared by dev can be found in private images in prod AMIs
 - Run Ec2 instance with network at 8080 inbound rule
 - Build go binary for ubuntu
   - `env GOOS=linux GOARCH=amd64 go build`

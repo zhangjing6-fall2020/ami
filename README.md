@@ -1,4 +1,5 @@
 # ami2
+test
 Repository for AMI
 
 Instructions for using packer:

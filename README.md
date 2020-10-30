@@ -1,6 +1,9 @@
 # ami2
 Repository for AMI
 
+Notice:
+- Remember to reapply the master rule in setting/branch for the repo if any changes happen in the github action workflow
+
 Instructions for using packer:
 - [packer docs](https://learn.hashicorp.com/collections/packer/getting-started)
 - Install packer on Linux:

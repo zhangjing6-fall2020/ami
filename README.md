@@ -1,4 +1,4 @@
-# ami2
+# ami
 Repository for AMI
 
 Notice:

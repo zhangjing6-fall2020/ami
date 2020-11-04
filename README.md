@@ -1,5 +1,6 @@
 # ami
 Repository for AMI
+test1
 
 AMI uses `ghactions` user permissions in dev to create EC2 AMI in dev account, and share AMIs with prod account.
 

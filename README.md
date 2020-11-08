@@ -1,13 +1,14 @@
 # ami
 Repository for AMI
-test1
-demo
 
 AMI uses `ghactions` user permissions in dev to create EC2 AMI in dev account, and share AMIs with prod account.
 
 Notice:
 - Remember to reapply the master rule in setting/branch for the repo if any changes happen in the github action workflow
 - To remove github actions workflow running for PR, `Require status checks to pass before merging` in branch rule in setting and `Run workflows from fork pull requests` in Actions in setting have been unchecked.
+
+secrets setting:
+- dev ghactions user
 
 Instructions for using packer:
 - [packer docs](https://learn.hashicorp.com/collections/packer/getting-started)
